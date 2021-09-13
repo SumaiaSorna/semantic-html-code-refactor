@@ -9,6 +9,7 @@
 
   <body>
     <!-- header and change of class name -->
+
     <header class="heading">
       <h1>Hori<span class="seo">seo</span>n</h1>
       <!-- a nav block is used to contain an unordered list of links -->
@@ -28,13 +29,14 @@
         </ul>
       </nav>
     </header>
-    <!-- added a id "search-engine-optimization" to fix the nav link that  
-      nav link must take the user to the search-engine-optimization" description section  -->
+
+    <!-- main is divided into 3 sections    -->
     <main>
       <section>
         <figure class="hero"></figure>
       </section>
 
+      <!-- added a id "search-engine-optimization" to fix the nav link -->
       <section class="content">
         <article
           id="search-engine-optimization"
@@ -93,45 +95,51 @@
           </p>
         </article>
       </section>
-      <div class="benefits">
-        <div class="benefit-lead">
-          <h3>Lead Generation</h3>
-          <img
-            src="./assets/images/lead-generation.png"
-            alt="Identify your customers"
-          />
 
+      <!--aside tags were assigned for tree parts in this section -->
+      <section class="benefits">
+        <aside class="benefit-lead">
+          <figure>
+            <h3>Lead Generation</h3>
+            <img
+              src="./assets/images/lead-generation.png"
+              alt="Identify your customers"
+            />
+          </figure>
           <p>
             Inbound strategies for lead generation require less work for your
             business, bringing customers directly to your website.
           </p>
-        </div>
-        <div class="benefit-brand">
+        </aside>
+        <aside class="benefit-brand">
           <h3>Brand Awareness</h3>
-          <img
-            src="./assets/images/brand-awareness.png"
-            alt="Highlight your business"
-          />
+          <figure>
+            <img
+              src="./assets/images/brand-awareness.png"
+              alt="Highlight your business"
+            />
+          </figure>
           <p>
             Users find your business through paid and organic searches,
             increasing the search ranking and visibility for your business.
           </p>
-        </div>
-        <div class="benefit-cost">
-          <h3>Cost Management</h3>
-          <img src="./assets/images/cost-management.png" alt="Extra profit" />
+        </aside>
+        <aside class="benefit-cost">
+          <figure>
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt="Extra profit" />
+          </figure>
           <p>
             As the search ranking for your business increases, your advertising
             costs decrease, and you no longer need to advertise your page.
           </p>
-        </div>
-      </div>
+        </aside>
+      </section>
     </main>
-    <footer>
-      <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
-      </div>
+    <!-- added footer following semantic html-->
+    <footer class="footer">
+      <h2>Made with ❤️️ by Horiseon</h2>
+      <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
   </body>
 </html>
