@@ -15,7 +15,6 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
 .heading h1 {
   display: inline-block;
   font-size: 48px;
@@ -33,13 +32,10 @@ body {
   font-size: 20px;
 }
 
-.heading nav ul {
-  list-style-type: none;
-}
-
 .heading nav ul li {
   display: inline-block;
   margin-left: 25px;
+  list-style-type: none;
 }
 
 a {
