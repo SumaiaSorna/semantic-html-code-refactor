@@ -5,7 +5,8 @@ Refactoring code for a marketing agency using the semantic HTML element is to re
 ## Github page
 
 GitHub page link is attached below:
-<https://github.com/SumaiaSorna>
+
+<https://sumaiasorna.github.io/semantic-html-code-refactor/>
 
 ## What did you do?
 
